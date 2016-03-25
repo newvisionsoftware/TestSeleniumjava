@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Direct Gov Test Suite]" parallel="tests">
+  <parameter name="browser_type" value="firefox"/>
+  <test name="good-cents-test - Firefox(failed)" parallel="tests">
+    <parameter name="browser_type" value="firefox"/>
+    <classes>
+      <class name="com.goodcentstest.test.GoodCents">
+        <methods>
+          <include name="oneTimeTearDown"/>
+          <include name="oneTimeSetUp"/>
+          <include name="testCTaxBands" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.goodcentstest.test.GoodCents -->
+    </classes>
+  </test> <!-- good-cents-test - Firefox(failed) -->
+</suite> <!-- Failed suite [Direct Gov Test Suite] -->

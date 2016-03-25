@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Saved <a href=../screenshots/25_Mar_2016__01_25_46PM.png>Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Direct Gov Test Suite" duration-ms="38594" started-at="2016-03-25T07:55:11Z" finished-at="2016-03-25T07:55:49Z">
+    <groups>
+    </groups>
+    <test name="good-cents-test - Firefox" duration-ms="38594" started-at="2016-03-25T07:55:11Z" finished-at="2016-03-25T07:55:49Z">
+      <class name="com.goodcentstest.test.GoodCents">
+        <test-method status="PASS" signature="oneTimeSetUp(java.lang.String)[pri:0, instance:com.goodcentstest.test.GoodCents@7f674d]" name="oneTimeSetUp" is-config="true" duration-ms="4857" started-at="2016-03-25T13:25:11Z" finished-at="2016-03-25T13:25:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method status="FAIL" signature="testCTaxBands(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.goodcentstest.test.GoodCents@7f674d]" name="testCTaxBands" duration-ms="30025" started-at="2016-03-25T13:25:16Z" data-provider="dataset1" finished-at="2016-03-25T13:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RG5 4NF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1, Concorde Way]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[F]> but was:<[E]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<[F]> but was:<[E]>
+	at junit.framework.Assert.assertEquals(Assert.java:85)
+	at junit.framework.Assert.assertEquals(Assert.java:91)
+	at com.goodcentstest.test.GoodCents.testCTaxBands(GoodCents.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+            <line>
+              <![CDATA[Saved <a href=../screenshots/25_Mar_2016__01_25_46PM.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCTaxBands -->
+        <test-method status="PASS" signature="testCTaxBands(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.goodcentstest.test.GoodCents@7f674d]" name="testCTaxBands" duration-ms="3547" started-at="2016-03-25T13:25:46Z" data-provider="dataset1" finished-at="2016-03-25T13:25:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RG5 4NF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2, Concorde Way]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCTaxBands -->
+        <test-method status="PASS" signature="oneTimeTearDown()[pri:0, instance:com.goodcentstest.test.GoodCents@7f674d]" name="oneTimeTearDown" is-config="true" duration-ms="8" started-at="2016-03-25T13:25:49Z" finished-at="2016-03-25T13:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+      </class> <!-- com.goodcentstest.test.GoodCents -->
+    </test> <!-- good-cents-test - Firefox -->
+  </suite> <!-- Direct Gov Test Suite -->
+</testng-results>
